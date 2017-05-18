@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Records</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/Input.css">
+</head>
+<body>
+    <input id="addNewItem" type="button" value="Add New Item">
+    <form name="recordform" id="recordform">
+        <label>
+            Name:
+            <input type="text" name="firstname" id="fname">
+        </label>
+        <label>
+            Age:
+            <input type="number" name="age" id="age">
+        </label>
+        <input id="submit" type="button" value="Submit">
+        <input id="cancel" type="button" value="Cancel">
+    </form>
+    <section id="sectionTable">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+input ,label {
+display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+#addNewItem {
+  margin-bottom: 50px;
+}
+#google-map {
+  height: 500px;
+}
+
+#recordform{
+  display:none;
+}
+
+#submit , #cancel {
+  display :inline;
+}
+
+#sectionTable{
+  display: none;
+}
